@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/AWS-WS-2024/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=AWS-WS-2024/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.134.3">
     <meta name="description" content="">
-<meta name="author" content="journeyoftheaverageguy@gmail.com">
+<meta name="author" content="truongninja3@gmail.com">
 
-    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="icon" href="/AWS-WS-2024/images/favicon.png" type="image/png">
 
     <title>Create Lambda Call Step Function :: AWS System Manager</title>
 
     
-    <link href="/css/nucleus.css?1727051229" rel="stylesheet">
-    <link href="/css/fontawesome-all.min.css?1727051229" rel="stylesheet">
-    <link href="/css/hybrid.css?1727051229" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1727051229" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1727051229" rel="stylesheet">
-    <link href="/css/auto-complete.css?1727051229" rel="stylesheet">
-    <link href="/css/atom-one-dark-reasonable.css?1727051229" rel="stylesheet">
-    <link href="/css/theme.css?1727051229" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1727051229" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/nucleus.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/fontawesome-all.min.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/hybrid.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/featherlight.min.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/perfect-scrollbar.min.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/auto-complete.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/atom-one-dark-reasonable.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/theme.css?1727056162" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/hugo-theme.css?1727056162" rel="stylesheet">
     
-    <link href="/css/theme-workshop.css?1727051229" rel="stylesheet">
+    <link href="/AWS-WS-2024/css/theme-workshop.css?1727056162" rel="stylesheet">
     
     
 
-    <script src="/js/jquery-3.3.1.min.js?1727051229"></script>
+    <script src="/AWS-WS-2024/js/jquery-3.3.1.min.js?1727056162"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/10-call-step-function/">
+  <body class="" data-url="/AWS-WS-2024/10-call-step-function/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1727051229"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1727051229"></script>
+<script type="text/javascript" src="/AWS-WS-2024/js/lunr.min.js?1727056162"></script>
+<script type="text/javascript" src="/AWS-WS-2024/js/auto-complete.js?1727056162"></script>
 <script type="text/javascript">
     
-        var baseurl = "\/\/localhost:1313\/";
+        var baseurl = "http:\/\/localhost:1313\/AWS-WS-2024\/";
     
 </script>
-<script type="text/javascript" src="/js/search.js?1727051229"></script>
+<script type="text/javascript" src="/AWS-WS-2024/js/search.js?1727056162"></script>
 
     
   </div>
@@ -82,12 +82,12 @@
  
   
     
-    <li data-nav-id="/1-introduce/" title="Introduction" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/1-introduce/" title="Introduction" class="dd-item 
         
         
         
         ">
-      <a href="/1-introduce/">
+      <a href="/AWS-WS-2024/1-introduce/">
            <b> 1. </b> Introduction
           
             <i class="fas fa-check read-icon"></i>
@@ -113,12 +113,12 @@
  
   
     
-    <li data-nav-id="/1-introduce/1.1-flow-explaination/" title="Flow explaination" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/1-introduce/1.1-flow-explaination/" title="Flow explaination" class="dd-item 
         
         
         
         ">
-      <a href="/1-introduce/1.1-flow-explaination/">
+      <a href="/AWS-WS-2024/1-introduce/1.1-flow-explaination/">
            <b> 1.1 </b> Flow explaination
           
             <i class="fas fa-check read-icon"></i>
@@ -148,12 +148,12 @@
  
   
     
-    <li data-nav-id="/2-preparation/" title="Preparation" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/2-preparation/" title="Preparation" class="dd-item 
         
         
         
         ">
-      <a href="/2-preparation/">
+      <a href="/AWS-WS-2024/2-preparation/">
            <b> 2. </b> Preparation
           
             <i class="fas fa-check read-icon"></i>
@@ -179,12 +179,12 @@
  
   
     
-    <li data-nav-id="/2-preparation/2.1-createiamrole/" title="Create IAM ROLE" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/2-preparation/2.1-createiamrole/" title="Create IAM ROLE" class="dd-item 
         
         
         
         ">
-      <a href="/2-preparation/2.1-createiamrole/">
+      <a href="/AWS-WS-2024/2-preparation/2.1-createiamrole/">
            <b> 2.1 </b> Create IAM ROLE
           
             <i class="fas fa-check read-icon"></i>
@@ -214,12 +214,12 @@
  
   
     
-    <li data-nav-id="/3-setup-s3/" title="Setup S3" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/3-setup-s3/" title="Setup S3" class="dd-item 
         
         
         
         ">
-      <a href="/3-setup-s3/">
+      <a href="/AWS-WS-2024/3-setup-s3/">
            <b> 3. </b> Setup S3
           
             <i class="fas fa-check read-icon"></i>
@@ -245,12 +245,12 @@
  
   
     
-    <li data-nav-id="/3-setup-s3/3.1-setup-s3-static-web/" title="Setup S3 Static website" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/" title="Setup S3 Static website" class="dd-item 
         
         
         
         ">
-      <a href="/3-setup-s3/3.1-setup-s3-static-web/">
+      <a href="/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/">
            <b> 3.1 </b> Setup S3 Static website
           
             <i class="fas fa-check read-icon"></i>
@@ -273,12 +273,12 @@
  
   
     
-    <li data-nav-id="/3-setup-s3/3.2-setup-s3-store-video-file/" title="Setup S3" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/" title="Setup S3" class="dd-item 
         
         
         
         ">
-      <a href="/3-setup-s3/3.2-setup-s3-store-video-file/">
+      <a href="/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/">
            <b> 3.2 </b> Setup S3
           
             <i class="fas fa-check read-icon"></i>
@@ -301,12 +301,12 @@
  
   
     
-    <li data-nav-id="/3-setup-s3/3.3-setup-s3-store-sub-file/" title="Set S3 to save video subtitle files" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.3-setup-s3-store-sub-file/" title="Set S3 to save video subtitle files" class="dd-item 
         
         
         
         ">
-      <a href="/3-setup-s3/3.3-setup-s3-store-sub-file/">
+      <a href="/AWS-WS-2024/3-setup-s3/3.3-setup-s3-store-sub-file/">
            <b> 3.3 </b> Set S3 to save video subtitle files
           
             <i class="fas fa-check read-icon"></i>
@@ -329,12 +329,12 @@
  
   
     
-    <li data-nav-id="/3-setup-s3/3.4-setup-s3-store-sub-trans-file/" title="Set S3 to save translated subtitle files" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.4-setup-s3-store-sub-trans-file/" title="Set S3 to save translated subtitle files" class="dd-item 
         
         
         
         ">
-      <a href="/3-setup-s3/3.4-setup-s3-store-sub-trans-file/">
+      <a href="/AWS-WS-2024/3-setup-s3/3.4-setup-s3-store-sub-trans-file/">
            <b> 3.4 </b> Set S3 to save translated subtitle files
           
             <i class="fas fa-check read-icon"></i>
@@ -364,12 +364,12 @@
  
   
     
-    <li data-nav-id="/4-setup-lambda-upload-video/" title="Set Up lambda" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/4-setup-lambda-upload-video/" title="Set Up lambda" class="dd-item 
         
         
         
         ">
-      <a href="/4-setup-lambda-upload-video/">
+      <a href="/AWS-WS-2024/4-setup-lambda-upload-video/">
            <b> 4. </b> Set Up lambda
           
             <i class="fas fa-check read-icon"></i>
@@ -395,12 +395,12 @@
  
   
     
-    <li data-nav-id="/4-setup-lambda-upload-video/4.1-create-lambda/" title="Set Lambda Upload Video" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/4-setup-lambda-upload-video/4.1-create-lambda/" title="Set Lambda Upload Video" class="dd-item 
         
         
         
         ">
-      <a href="/4-setup-lambda-upload-video/4.1-create-lambda/">
+      <a href="/AWS-WS-2024/4-setup-lambda-upload-video/4.1-create-lambda/">
            <b> 4.1 </b> Set Lambda Upload Video
           
             <i class="fas fa-check read-icon"></i>
@@ -430,12 +430,12 @@
  
   
     
-    <li data-nav-id="/5-transcribe/" title="Transcribe" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/5-transcribe/" title="Transcribe" class="dd-item 
         
         
         
         ">
-      <a href="/5-transcribe/">
+      <a href="/AWS-WS-2024/5-transcribe/">
            <b> 5. </b> Transcribe
           
             <i class="fas fa-check read-icon"></i>
@@ -461,12 +461,12 @@
  
   
     
-    <li data-nav-id="/5-transcribe/5.1-lambda-transc/" title="Lambda Transcribe" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/5-transcribe/5.1-lambda-transc/" title="Lambda Transcribe" class="dd-item 
         
         
         
         ">
-      <a href="/5-transcribe/5.1-lambda-transc/">
+      <a href="/AWS-WS-2024/5-transcribe/5.1-lambda-transc/">
            <b> 5.1 </b> Lambda Transcribe
           
             <i class="fas fa-check read-icon"></i>
@@ -496,12 +496,12 @@
  
   
     
-    <li data-nav-id="/6-translate/" title="Translate" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/6-translate/" title="Translate" class="dd-item 
         
         
         
         ">
-      <a href="/6-translate/">
+      <a href="/AWS-WS-2024/6-translate/">
            <b> 6. </b> Translate
           
             <i class="fas fa-check read-icon"></i>
@@ -527,12 +527,12 @@
  
   
     
-    <li data-nav-id="/6-translate/6.1-lambda-transl/" title="Lambda Translate" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/6-translate/6.1-lambda-transl/" title="Lambda Translate" class="dd-item 
         
         
         
         ">
-      <a href="/6-translate/6.1-lambda-transl/">
+      <a href="/AWS-WS-2024/6-translate/6.1-lambda-transl/">
            <b> 6.1 </b> Lambda Translate
           
             <i class="fas fa-check read-icon"></i>
@@ -562,12 +562,12 @@
  
   
     
-    <li data-nav-id="/7-notify/" title="Notify to frontend" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/7-notify/" title="Notify to frontend" class="dd-item 
         
         
         
         ">
-      <a href="/7-notify/">
+      <a href="/AWS-WS-2024/7-notify/">
            <b> 7. </b> Notify to frontend
           
             <i class="fas fa-check read-icon"></i>
@@ -593,12 +593,12 @@
  
   
     
-    <li data-nav-id="/7-notify/7.1-lambda-notify/" title="Create Lambda Notify" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/7-notify/7.1-lambda-notify/" title="Create Lambda Notify" class="dd-item 
         
         
         
         ">
-      <a href="/7-notify/7.1-lambda-notify/">
+      <a href="/AWS-WS-2024/7-notify/7.1-lambda-notify/">
            <b> 7.1 </b> Create Lambda Notify
           
             <i class="fas fa-check read-icon"></i>
@@ -621,12 +621,12 @@
  
   
     
-    <li data-nav-id="/7-notify/7.2-api-gateway/" title="Create API Gateway" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/7-notify/7.2-api-gateway/" title="Create API Gateway" class="dd-item 
         
         
         
         ">
-      <a href="/7-notify/7.2-api-gateway/">
+      <a href="/AWS-WS-2024/7-notify/7.2-api-gateway/">
            <b> 7.2 </b> Create API Gateway
           
             <i class="fas fa-check read-icon"></i>
@@ -656,12 +656,12 @@
  
   
     
-    <li data-nav-id="/8-step-function/" title="Setup Step Function" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/8-step-function/" title="Setup Step Function" class="dd-item 
         
         
         
         ">
-      <a href="/8-step-function/">
+      <a href="/AWS-WS-2024/8-step-function/">
            <b> 8. </b> Setup Step Function
           
             <i class="fas fa-check read-icon"></i>
@@ -682,12 +682,12 @@
  
   
     
-    <li data-nav-id="/9-sns/" title="Setup SNS" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/9-sns/" title="Setup SNS" class="dd-item 
         
         
         
         ">
-      <a href="/9-sns/">
+      <a href="/AWS-WS-2024/9-sns/">
            <b> 9. </b> Setup SNS
           
             <i class="fas fa-check read-icon"></i>
@@ -708,12 +708,12 @@
  
   
     
-    <li data-nav-id="/10-call-step-function/" title="Create Lambda Call Step Function" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/10-call-step-function/" title="Create Lambda Call Step Function" class="dd-item 
         
         active
         
         ">
-      <a href="/10-call-step-function/">
+      <a href="/AWS-WS-2024/10-call-step-function/">
            <b> 10. </b> Create Lambda Call Step Function
           
             <i class="fas fa-check read-icon"></i>
@@ -734,12 +734,12 @@
  
   
     
-    <li data-nav-id="/11-test-website/" title="Test website" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/11-test-website/" title="Test website" class="dd-item 
         
         
         
         ">
-      <a href="/11-test-website/">
+      <a href="/AWS-WS-2024/11-test-website/">
            <b> 11. </b> Test website
           
             <i class="fas fa-check read-icon"></i>
@@ -760,12 +760,12 @@
  
   
     
-    <li data-nav-id="/12-clean-up-resources/" title="Clean up resources" class="dd-item 
+    <li data-nav-id="/AWS-WS-2024/12-clean-up-resources/" title="Clean up resources" class="dd-item 
         
         
         
         ">
-      <a href="/12-clean-up-resources/">
+      <a href="/AWS-WS-2024/12-clean-up-resources/">
            <b> 12. </b> Clean up resources
           
             <i class="fas fa-check read-icon"></i>
@@ -813,7 +813,7 @@
                   
                     
                     
-                      <option id="en" value="//localhost:1313/10-call-step-function/" selected>English</option>
+                      <option id="en" value="http://localhost:1313/AWS-WS-2024/10-call-step-function/" selected>English</option>
                     
                   
               
@@ -827,7 +827,7 @@
                   
                     
                     
-                      <option id="vi" value="//localhost:1313/vi/10-call-step-function/">Tiếng Việt</option>
+                      <option id="vi" value="http://localhost:1313/AWS-WS-2024/vi/10-call-step-function/">Tiếng Việt</option>
                     
                   
               
@@ -893,6 +893,17 @@
               <div>
                 <div id="top-bar">
                 
+                  
+                  
+                  
+                  <div id="top-github-link">
+                    <a class="github-link" title='Edit this page' href="https://nguyennhattruong03.github.io/AWS-WS-2024/10-Call-Step-Function/_index.md" target="blank">
+                      <i class="fas fa-code-branch"></i>
+                      <span id="top-github-link-text">Edit this page</span>
+                    </a>
+                  </div>
+                  
+                
                 
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
@@ -913,7 +924,7 @@
             
           
           
-            <a href='/'>Caption and translate video with AWS Transcribe and AWS Translate</a> > Create Lambda Call Step Function
+            <a href='/AWS-WS-2024/'>Caption and translate video with AWS Transcribe and AWS Translate</a> > Create Lambda Call Step Function
           
         
           
@@ -1424,10 +1435,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/9-sns/" title="Setup SNS"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/AWS-WS-2024/9-sns/" title="Setup SNS"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/11-test-website/" title="Test website" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/AWS-WS-2024/11-test-website/" title="Test website" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1437,19 +1448,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1727051230"></script>
-    <script src="/js/perfect-scrollbar.min.js?1727051230"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1727051230"></script>
-    <script src="/js/jquery.sticky.js?1727051230"></script>
-    <script src="/js/featherlight.min.js?1727051230"></script>
-    <script src="/js/highlight.pack.js?1727051230"></script>
+    <script src="/AWS-WS-2024/js/clipboard.min.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/perfect-scrollbar.min.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/perfect-scrollbar.jquery.min.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/jquery.sticky.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/featherlight.min.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/highlight.pack.js?1727056162"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom-3.6.0.js?1727051230"></script>
-    <script src="/js/learn.js?1727051230"></script>
-    <script src="/js/hugo-learn.js?1727051230"></script>
+    <script src="/AWS-WS-2024/js/modernizr.custom-3.6.0.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/learn.js?1727056162"></script>
+    <script src="/AWS-WS-2024/js/hugo-learn.js?1727056162"></script>
 
-    <link href="/mermaid/mermaid.css?1727051230" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1727051230"></script>
+    <link href="/AWS-WS-2024/mermaid/mermaid.css?1727056162" rel="stylesheet" />
+    <script src="/AWS-WS-2024/mermaid/mermaid.js?1727056162"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

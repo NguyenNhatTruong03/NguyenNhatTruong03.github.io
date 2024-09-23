@@ -2,316 +2,316 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/"
+                href="http://localhost:1313/AWS-WS-2024/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/"
+                href="http://localhost:1313/AWS-WS-2024/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-preparation/2.1-createiamrole/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/2-preparation/2.1-createiamrole/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-preparation/2.1-createiamrole/"
+                href="http://localhost:1313/AWS-WS-2024/vi/2-preparation/2.1-createiamrole/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-preparation/2.1-createiamrole/"
+                href="http://localhost:1313/AWS-WS-2024/2-preparation/2.1-createiamrole/"
                 />
   </url><url>
-    <loc>//localhost:1313/7-notify/7.1-lambda-notify/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/7-notify/7.1-lambda-notify/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/7-notify/7.1-lambda-notify/"
+                href="http://localhost:1313/AWS-WS-2024/vi/7-notify/7.1-lambda-notify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/7-notify/7.1-lambda-notify/"
+                href="http://localhost:1313/AWS-WS-2024/7-notify/7.1-lambda-notify/"
                 />
   </url><url>
-    <loc>//localhost:1313/1-introduce/1.1-flow-explaination/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/1-introduce/1.1-flow-explaination/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/1-introduce/1.1-flow-explaination/"
+                href="http://localhost:1313/AWS-WS-2024/vi/1-introduce/1.1-flow-explaination/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/1-introduce/1.1-flow-explaination/"
+                href="http://localhost:1313/AWS-WS-2024/1-introduce/1.1-flow-explaination/"
                 />
   </url><url>
-    <loc>//localhost:1313/1-introduce/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/1-introduce/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/1-introduce/"
+                href="http://localhost:1313/AWS-WS-2024/vi/1-introduce/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/1-introduce/"
+                href="http://localhost:1313/AWS-WS-2024/1-introduce/"
                 />
   </url><url>
-    <loc>//localhost:1313/5-transcribe/5.1-lambda-transc/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/5-transcribe/5.1-lambda-transc/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/5-transcribe/5.1-lambda-transc/"
+                href="http://localhost:1313/AWS-WS-2024/vi/5-transcribe/5.1-lambda-transc/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/5-transcribe/5.1-lambda-transc/"
+                href="http://localhost:1313/AWS-WS-2024/5-transcribe/5.1-lambda-transc/"
                 />
   </url><url>
-    <loc>//localhost:1313/6-translate/6.1-lambda-transl/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/6-translate/6.1-lambda-transl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/6-translate/6.1-lambda-transl/"
+                href="http://localhost:1313/AWS-WS-2024/vi/6-translate/6.1-lambda-transl/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/6-translate/6.1-lambda-transl/"
+                href="http://localhost:1313/AWS-WS-2024/6-translate/6.1-lambda-transl/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-setup-lambda-upload-video/4.1-create-lambda/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/4-setup-lambda-upload-video/4.1-create-lambda/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-setup-lambda-upload-video/4.1-create-lambda/"
+                href="http://localhost:1313/AWS-WS-2024/vi/4-setup-lambda-upload-video/4.1-create-lambda/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-setup-lambda-upload-video/4.1-create-lambda/"
+                href="http://localhost:1313/AWS-WS-2024/4-setup-lambda-upload-video/4.1-create-lambda/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-setup-s3/3.1-setup-s3-static-web/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-setup-s3/3.1-setup-s3-static-web/"
+                href="http://localhost:1313/AWS-WS-2024/vi/3-setup-s3/3.1-setup-s3-static-web/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-setup-s3/3.1-setup-s3-static-web/"
+                href="http://localhost:1313/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/"
                 />
   </url><url>
-    <loc>//localhost:1313/7-notify/7.2-api-gateway/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/7-notify/7.2-api-gateway/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/7-notify/7.2-api-gateway/"
+                href="http://localhost:1313/AWS-WS-2024/vi/7-notify/7.2-api-gateway/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/7-notify/7.2-api-gateway/"
+                href="http://localhost:1313/AWS-WS-2024/7-notify/7.2-api-gateway/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-preparation/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/2-preparation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-preparation/"
+                href="http://localhost:1313/AWS-WS-2024/vi/2-preparation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-preparation/"
+                href="http://localhost:1313/AWS-WS-2024/2-preparation/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-setup-s3/3.2-setup-s3-store-video-file/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-setup-s3/3.2-setup-s3-store-video-file/"
+                href="http://localhost:1313/AWS-WS-2024/vi/3-setup-s3/3.2-setup-s3-store-video-file/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-setup-s3/3.2-setup-s3-store-video-file/"
+                href="http://localhost:1313/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-setup-s3/3.3-setup-s3-store-sub-file/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/3-setup-s3/3.3-setup-s3-store-sub-file/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-setup-s3/3.3-setup-s3-store-sub-file/"
+                href="http://localhost:1313/AWS-WS-2024/vi/3-setup-s3/3.3-setup-s3-store-sub-file/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-setup-s3/3.3-setup-s3-store-sub-file/"
+                href="http://localhost:1313/AWS-WS-2024/3-setup-s3/3.3-setup-s3-store-sub-file/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-setup-s3/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/3-setup-s3/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-setup-s3/"
+                href="http://localhost:1313/AWS-WS-2024/vi/3-setup-s3/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-setup-s3/"
+                href="http://localhost:1313/AWS-WS-2024/3-setup-s3/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-setup-s3/3.4-setup-s3-store-sub-trans-file/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/3-setup-s3/3.4-setup-s3-store-sub-trans-file/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-setup-s3/3.4-setup-s3-store-sub-trans-file/"
+                href="http://localhost:1313/AWS-WS-2024/vi/3-setup-s3/3.4-setup-s3-store-sub-trans-file/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-setup-s3/3.4-setup-s3-store-sub-trans-file/"
+                href="http://localhost:1313/AWS-WS-2024/3-setup-s3/3.4-setup-s3-store-sub-trans-file/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-setup-lambda-upload-video/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/4-setup-lambda-upload-video/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-setup-lambda-upload-video/"
+                href="http://localhost:1313/AWS-WS-2024/vi/4-setup-lambda-upload-video/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-setup-lambda-upload-video/"
+                href="http://localhost:1313/AWS-WS-2024/4-setup-lambda-upload-video/"
                 />
   </url><url>
-    <loc>//localhost:1313/5-transcribe/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/5-transcribe/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/5-transcribe/"
+                href="http://localhost:1313/AWS-WS-2024/vi/5-transcribe/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/5-transcribe/"
+                href="http://localhost:1313/AWS-WS-2024/5-transcribe/"
                 />
   </url><url>
-    <loc>//localhost:1313/6-translate/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/6-translate/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/6-translate/"
+                href="http://localhost:1313/AWS-WS-2024/vi/6-translate/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/6-translate/"
+                href="http://localhost:1313/AWS-WS-2024/6-translate/"
                 />
   </url><url>
-    <loc>//localhost:1313/7-notify/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/7-notify/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/7-notify/"
+                href="http://localhost:1313/AWS-WS-2024/vi/7-notify/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/7-notify/"
+                href="http://localhost:1313/AWS-WS-2024/7-notify/"
                 />
   </url><url>
-    <loc>//localhost:1313/8-step-function/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/8-step-function/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/8-step-function/"
+                href="http://localhost:1313/AWS-WS-2024/vi/8-step-function/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/8-step-function/"
+                href="http://localhost:1313/AWS-WS-2024/8-step-function/"
                 />
   </url><url>
-    <loc>//localhost:1313/9-sns/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/9-sns/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/9-sns/"
+                href="http://localhost:1313/AWS-WS-2024/vi/9-sns/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/9-sns/"
+                href="http://localhost:1313/AWS-WS-2024/9-sns/"
                 />
   </url><url>
-    <loc>//localhost:1313/10-call-step-function/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/10-call-step-function/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/10-call-step-function/"
+                href="http://localhost:1313/AWS-WS-2024/vi/10-call-step-function/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/10-call-step-function/"
+                href="http://localhost:1313/AWS-WS-2024/10-call-step-function/"
                 />
   </url><url>
-    <loc>//localhost:1313/11-test-website/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/11-test-website/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/11-test-website/"
+                href="http://localhost:1313/AWS-WS-2024/vi/11-test-website/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/11-test-website/"
+                href="http://localhost:1313/AWS-WS-2024/11-test-website/"
                 />
   </url><url>
-    <loc>//localhost:1313/12-clean-up-resources/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/12-clean-up-resources/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/12-clean-up-resources/"
+                href="http://localhost:1313/AWS-WS-2024/vi/12-clean-up-resources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/12-clean-up-resources/"
+                href="http://localhost:1313/AWS-WS-2024/12-clean-up-resources/"
                 />
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/categories/"
+                href="http://localhost:1313/AWS-WS-2024/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/categories/"
+                href="http://localhost:1313/AWS-WS-2024/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/AWS-WS-2024/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/tags/"
+                href="http://localhost:1313/AWS-WS-2024/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/"
+                href="http://localhost:1313/AWS-WS-2024/tags/"
                 />
   </url>
 </urlset>
