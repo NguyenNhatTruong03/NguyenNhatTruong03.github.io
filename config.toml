@@ -1,5 +1,5 @@
 # Change the default theme to be use when building the site with Hugo
-baseURL = "https://nguyennhattruong03.github.io/AWS-WS-2024/"
+baseURL = "https://NguyenNhatTruong03.github.io/"
 theme = "hugo-theme-learn"
 
 # For search functionality
@@ -10,7 +10,7 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = "https://nguyennhattruong03.github.io/AWS-WS-2024/"
+  editURL = "https://NguyenNhatTruong03.github.io/"
   description = ""
   author = "truongninja3@gmail.com"
   showVisitedLinks = true
