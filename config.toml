@@ -1,4 +1,5 @@
 # Change the default theme to be use when building the site with Hugo
+baseURL = "https://nguyennhattruong03.github.io/AWS-WS-2024/"
 theme = "hugo-theme-learn"
 
 # For search functionality
