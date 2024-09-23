@@ -10,9 +10,9 @@ home = [ "HTML", "RSS", "JSON"]
   # Change default color scheme with a variant one. Can be "red", "blue", "green".
   themeVariant = "workshop"
   # Git hub repo link
-  editURL = ""
+  editURL = "https://nguyennhattruong03.github.io/AWS-WS-2024/"
   description = ""
-  author = "journeyoftheaverageguy@gmail.com"
+  author = "truongninja3@gmail.com"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableNextPrev = false
