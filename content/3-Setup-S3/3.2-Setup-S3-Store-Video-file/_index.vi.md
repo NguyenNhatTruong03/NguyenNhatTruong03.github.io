@@ -1,5 +1,5 @@
 ---
-title : "Set up S3 to save video files"
+title : "Thiết lập S3 để lưu tệp video"
 date :  "`r Sys.Date()`" 
 weight : 2 
 chapter : false
@@ -15,7 +15,7 @@ Tạo Bucket để lưu file các bước đầu giống với Tạo Bucket đ�
 
 ![Sep-Up-S3](/images/3.setupS3/3.2.ima/n1.png)
 
-Để quản lý file Vidoe được gọn hơn thì, ta sẽ tao một floder trong bucket.
+Để quản lý file Video được gọn hơn thì, ta sẽ tao một floder trong bucket.
 
 ![Sep-Up-S3](/images/3.setupS3/3.2.ima/n2.png)
 
@@ -23,7 +23,7 @@ Tạo floder với tên **`Video`**
 
 ![Sep-Up-S3](/images/3.setupS3/3.2.ima/n3.png)
 
-**Create folder**
+Chọn **Create folder**
 
 ![Sep-Up-S3](/images/3.setupS3/3.2.ima/n4.png)
 
@@ -56,12 +56,12 @@ Dán đoạn code sau:
 ]
 ```
 
-*"AllowedHeaders": [*]* là danh sách các tiêu đề HTTP mà trình duyệt có thể gửi trong một yêu cầu từ các nguồn khác (cross-origin request). Dấu * cho phép tất cả các tiêu đề HTTP
+*"AllowedHeaders": [ "*" ]* là danh sách các tiêu đề HTTP mà trình duyệt có thể gửi trong một yêu cầu từ các nguồn khác (cross-origin request). Dấu * cho phép tất cả các tiêu đề HTTP
 
 *"AllowedMethods": ["PUT", "GET", "DELETE"]* là danh sách các phương thức HTTP được phép khi gửi yêu cầu đến S3 từ các nguồn khác.
 
-*"AllowedOrigins": ["*"]* là danh sách các nguồn (origin) được phép truy cập vào S3 bucket. Dấu * có nghĩa là mọi nguồn gốc đều được phép truy cập, tức là cho phép tất cả các trang web từ bất kỳ domain nào thực hiện yêu cầu đến S3 bucket.
+*"AllowedOrigins": [ "*" ]* là danh sách các nguồn (origin) được phép truy cập vào S3 bucket. Dấu * có nghĩa là mọi nguồn gốc đều được phép truy cập, tức là cho phép tất cả các trang web từ bất kỳ domain nào thực hiện yêu cầu đến S3 bucket.
 
 *"ExposeHeaders": ["ETag"]* là danh sách các tiêu đề HTTP mà trình duyệt có thể truy cập từ phản hồi của S3. ETag là một tiêu đề HTTP cho phép trình duyệt biết phiên bản của một tệp, thường được sử dụng để xác định sự thay đổi của tài nguyên.
 
-**Save changes**
+Cuối cùng chọn **Save changes**

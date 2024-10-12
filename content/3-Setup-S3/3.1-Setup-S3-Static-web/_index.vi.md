@@ -12,20 +12,19 @@ Truy cập đến bảng điều khiển S3 và tạo Bucket mới tên **`web-t
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n1.png)
 
-Chọn **ACLs enable** và tích **Object write để public các object trong bucket.
+Chọn **ACLs enable** và tích **Object write** để public các object trong bucket.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n2.png)
 
-Bỏ tích **Block all public access*, tích **
-I acknowledge that the current settings might result in this bucket and the objects within becoming public.** để có thể cho phép các nguồn khác có thể truy cập đến S3
+Bỏ tích **Block all public access**, tích *I acknowledge that the current settings might result in this bucket and the objects within becoming public.* để có thể cho phép các nguồn khác có thể truy cập đến S3
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n.png)
 
-**Create bucket**
+Chọn **Create bucket**
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n3.png)
 
-Chọn Bucket vừa tạo vào vào **Premissions**.
+Tiếp theo sẽ cấu hình policy cho S3. Chọn Bucket vừa tạo vào vào **Premissions**.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n4.png)
 
@@ -36,12 +35,16 @@ Chọn Bucket vừa tạo vào vào **Premissions**.
 Cấu hình policy cho bucket bằng tình năng **Policy generator**.
 
 {{% notice note %}}
+AWS Policy Generator là công cụ cho phép bạn tạo chính sách kiểm soát quyền truy cập vào các sản phẩm và tài nguyên của Amazon Web Services (AWS).
+
 Trước khi chọn **Policy generator**, thì cần copy **Bucket ARN**
 {{% /notice %}}
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n6.png)
 
-Cấu hình để tạo policy cho bucket.
+Để tạo policy cho bucket thì phần Step 1, sẽ chọn vào **S3 Bucket Policy**, ngoài ra có thể tạo các policy cho SQS, VPC, IAM và SNS tuy vào từng loại server mà ta cần thực hiện.
+
+Ở Step2 - Principal ta để giá trị là * cho phép tất cả nguồn truy cập đến bucket.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n7.png)
 
@@ -53,7 +56,7 @@ Sau khi chọn **Generate Policy** sẽ được đoạn mã json policy và cop
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n9.png)
 
-Dán đoạn mã.
+Dán đoạn mã vừa được tạo vào Policy.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n10.png)
 
@@ -61,7 +64,7 @@ Dán đoạn mã.
 Ở cuối đừng dẫn trong **Resource** thêm /* để cho phép truy cập đến các object trong bucket.
 {{% /notice %}}
 
-**Save changes**
+Chọn **Save changes**
 
 Upload file code trang web lên bucket, chọn upload và chọn file để upload lên và cuối cùng là bấm **Upload**.
 
@@ -85,7 +88,7 @@ Cấu hình static website hosting.
 Phần **Index document** để tên file bạn muốn hiện thị gian diện đầu tiên, hay có thể như là trang chủ. Để đúng tên với file đã upload lên Bucket. **Error document** nếu bạn code file để hiện lỗi trang web thì có thể upload lên và để tên của file đó, ở đây do không có file hiện lỗi ở giao diện ên có thể để tên file như của  **Index document**.
 {{% /notice %}}
 
-**Save changes**
+Chọn **Save changes**
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n14.png)
 

@@ -13,5 +13,5 @@ pre : " <b> 1. </b> "
 ## AWS Step Function
 **Step Functions** là dịch vụ quy trình làm việc trực quan giúp nhà phát triển sử dụng các dịch vụ AWS để xây dựng ứng dụng phân tán, tự động hóa các quy trình, điều phối các vi dịch vụ, đồng thời tạo ra quy trình dữ liệu và máy học (ML).
 
-## Kiến trúc
+## Kiến trúc của Workshop
 ![architec](/images/1.Introduce/architec.png)

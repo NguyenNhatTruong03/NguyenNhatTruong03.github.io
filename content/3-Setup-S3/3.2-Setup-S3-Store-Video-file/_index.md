@@ -1,5 +1,5 @@
 ---
-title : "Setup S3"
+title : "Set up S3 to save video files"
 date : "`r Sys.Date()`"
 weight : 2
 chapter : false
@@ -22,7 +22,7 @@ Create folder with name **`Video`**
 
 ![Sep-Up-S3](/images/3.setupS3/3.2.ima/n3.png)
 
-**Create folder**
+Select **Create folder**
 
 ![Sep-Up-S3](/images/3.setupS3/3.2.ima/n4.png)
 
@@ -55,12 +55,12 @@ Paste the following code:
 ]
 ```
 
-*"AllowedHeaders": [*]* is a list of HTTP headers that the browser can send in a request from other sources (cross-origin request). The * allows all HTTP headers
+*"AllowedHeaders": [ "*" ]* is a list of HTTP headers that the browser can send in a request from other sources (cross-origin request). The * allows all HTTP headers
 
 *"AllowedMethods": ["PUT", "GET", "DELETE"]* is a list of HTTP methods that are allowed when making requests to S3 from other sources.
 
-*"AllowedOrigins": ["*"]* is a list of origins that are allowed to access the S3 bucket. The * means that all origins are allowed, which means that all websites from any domain are allowed to make requests to the S3 bucket.
+*"AllowedOrigins": [ "*" ]* is a list of origins that are allowed to access the S3 bucket. The * means that all origins are allowed, which means that all websites from any domain are allowed to make requests to the S3 bucket.
 
 *"ExposeHeaders": ["ETag"]* is a list of HTTP headers that the browser can access from the S3 response. ETag is an HTTP header that tells the browser the version of a file, often used to identify changes to a resource.
 
-**Save changes**
+Finally select **Save changes**

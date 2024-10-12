@@ -12,21 +12,19 @@ Go to the S3 dashboard and create a new Bucket named **`web-translate-ws-2024`**
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n1.png)
 
-Select **ACLs enable** and check **Object write to make objects in the bucket public.
+Select **ACLs enable** and check **Object write** to make objects in the bucket public.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n2.png)
 
-Uncheck **Block all public access*, check **
-
-I acknowledge that the current settings might result in this bucket and the objects within becoming public.** to allow other sources to access S3
+Uncheck **Block all public access**, check *I acknowledge that the current settings might result in this bucket and the objects within becoming public.* to allow other sources to access S3
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n.png)
 
-**Create bucket**
+Select **Create bucket**
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n3.png)
 
-Select the newly created Bucket and go to **Premissions**.
+Next, configure the policy for S3. Select the newly created Bucket and go to **Premissions**.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n4.png)
 
@@ -37,12 +35,16 @@ Go to **Bucket policy** to configure the Bucket policy.
 Configure the policy for the bucket using the **Policy generator** feature.
 
 {{% notice note %}}
+AWS Policy Generator is a tool that lets you create policies that control access to Amazon Web Services (AWS) products and resources.
+
 Before selecting **Policy generator**, you need to copy **Bucket ARN**
 {{% /notice %}}
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n6.png)
 
-Configure to create a policy for the bucket.
+To create a policy for the bucket, in Step 1, select **S3 Bucket Policy**, in addition, you can create policies for SQS, VPC, IAM and SNS depending on the type of server that you need to perform.
+
+In Step 2 - Principal, we set the value to * to allow all sources to access the bucket.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n7.png)
 
@@ -54,7 +56,7 @@ After selecting **Generate Policy**, you will get the json policy code and copy 
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n9.png)
 
-Paste the code.
+Paste the newly generated code into Policy.
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n10.png)
 
@@ -62,7 +64,7 @@ Paste the code.
 At the end of the **Resource** line, add /* to allow access to objects in the bucket.
 {{% /notice %}}
 
-**Save changes**
+Select **Save changes**
 
 Upload the website code file to the bucket, select upload and select the file to upload and finally click **Upload**.
 
@@ -86,7 +88,7 @@ Configure static website hosting.
 In the **Index document** section, enter the file name you want to display first, or maybe as the homepage. Leave the same name as the file uploaded to the Bucket. **Error document** if you code a file to display website errors, you can upload it and leave the name of that file, here because there is no file to display errors in the interface, you can leave the file name as **Index document**.
 {{% /notice %}}
 
-**Save changes**
+Select **Save changes**
 
 ![Sep-Up-S3](/images/3.setupS3/3.1.ima/n14.png)
 

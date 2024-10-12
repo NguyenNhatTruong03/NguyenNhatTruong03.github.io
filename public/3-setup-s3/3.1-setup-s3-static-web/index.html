@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" class="js csstransforms3d">
-  <head><script src="/AWS-WS-2024/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=AWS-WS-2024/livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.134.3">
     <meta name="description" content="">
 <meta name="author" content="truongninja3@gmail.com">
 
-    <link rel="icon" href="/AWS-WS-2024/images/favicon.png" type="image/png">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
 
     <title>Setup S3 Static website :: AWS System Manager</title>
 
     
-    <link href="/AWS-WS-2024/css/nucleus.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/fontawesome-all.min.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/hybrid.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/featherlight.min.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/perfect-scrollbar.min.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/auto-complete.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/atom-one-dark-reasonable.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/theme.css?1727056162" rel="stylesheet">
-    <link href="/AWS-WS-2024/css/hugo-theme.css?1727056162" rel="stylesheet">
+    <link href="/css/nucleus.css?1728731519" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1728731519" rel="stylesheet">
+    <link href="/css/hybrid.css?1728731519" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1728731519" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1728731519" rel="stylesheet">
+    <link href="/css/auto-complete.css?1728731519" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1728731519" rel="stylesheet">
+    <link href="/css/theme.css?1728731519" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1728731519" rel="stylesheet">
     
-    <link href="/AWS-WS-2024/css/theme-workshop.css?1727056162" rel="stylesheet">
+    <link href="/css/theme-workshop.css?1728731519" rel="stylesheet">
     
     
 
-    <script src="/AWS-WS-2024/js/jquery-3.3.1.min.js?1727056162"></script>
+    <script src="/js/jquery-3.3.1.min.js?1728731519"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/">
+  <body class="" data-url="/3-setup-s3/3.1-setup-s3-static-web/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -57,14 +57,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/AWS-WS-2024/js/lunr.min.js?1727056162"></script>
-<script type="text/javascript" src="/AWS-WS-2024/js/auto-complete.js?1727056162"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1728731519"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1728731519"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/localhost:1313\/AWS-WS-2024\/";
+        var baseurl = "http:\/\/localhost:1313\/";
     
 </script>
-<script type="text/javascript" src="/AWS-WS-2024/js/search.js?1727056162"></script>
+<script type="text/javascript" src="/js/search.js?1728731519"></script>
 
     
   </div>
@@ -82,12 +82,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/1-introduce/" title="Introduction" class="dd-item 
+    <li data-nav-id="/1-introduce/" title="Introduction" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/1-introduce/">
+      <a href="/1-introduce/">
            <b> 1. </b> Introduction
           
             <i class="fas fa-check read-icon"></i>
@@ -113,12 +113,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/1-introduce/1.1-flow-explaination/" title="Flow explaination" class="dd-item 
+    <li data-nav-id="/1-introduce/1.1-flow-explaination/" title="Flow explaination" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/1-introduce/1.1-flow-explaination/">
+      <a href="/1-introduce/1.1-flow-explaination/">
            <b> 1.1 </b> Flow explaination
           
             <i class="fas fa-check read-icon"></i>
@@ -148,12 +148,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/2-preparation/" title="Preparation" class="dd-item 
+    <li data-nav-id="/2-preparation/" title="Preparation" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/2-preparation/">
+      <a href="/2-preparation/">
            <b> 2. </b> Preparation
           
             <i class="fas fa-check read-icon"></i>
@@ -179,12 +179,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/2-preparation/2.1-createiamrole/" title="Create IAM ROLE" class="dd-item 
+    <li data-nav-id="/2-preparation/2.1-createiamrole/" title="Create IAM ROLE" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/2-preparation/2.1-createiamrole/">
+      <a href="/2-preparation/2.1-createiamrole/">
            <b> 2.1 </b> Create IAM ROLE
           
             <i class="fas fa-check read-icon"></i>
@@ -214,12 +214,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/3-setup-s3/" title="Setup S3" class="dd-item 
+    <li data-nav-id="/3-setup-s3/" title="Setup S3" class="dd-item 
         parent
         
         
         ">
-      <a href="/AWS-WS-2024/3-setup-s3/">
+      <a href="/3-setup-s3/">
            <b> 3. </b> Setup S3
           
             <i class="fas fa-check read-icon"></i>
@@ -245,12 +245,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/" title="Setup S3 Static website" class="dd-item 
+    <li data-nav-id="/3-setup-s3/3.1-setup-s3-static-web/" title="Setup S3 Static website" class="dd-item 
         
         active
         
         ">
-      <a href="/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/">
+      <a href="/3-setup-s3/3.1-setup-s3-static-web/">
            <b> 3.1 </b> Setup S3 Static website
           
             <i class="fas fa-check read-icon"></i>
@@ -273,13 +273,13 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/" title="Setup S3" class="dd-item 
+    <li data-nav-id="/3-setup-s3/3.2-setup-s3-store-video-file/" title="Set up S3 to save video files" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/">
-           <b> 3.2 </b> Setup S3
+      <a href="/3-setup-s3/3.2-setup-s3-store-video-file/">
+           <b> 3.2 </b> Set up S3 to save video files
           
             <i class="fas fa-check read-icon"></i>
           
@@ -301,12 +301,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.3-setup-s3-store-sub-file/" title="Set S3 to save video subtitle files" class="dd-item 
+    <li data-nav-id="/3-setup-s3/3.3-setup-s3-store-sub-file/" title="Set S3 to save video subtitle files" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/3-setup-s3/3.3-setup-s3-store-sub-file/">
+      <a href="/3-setup-s3/3.3-setup-s3-store-sub-file/">
            <b> 3.3 </b> Set S3 to save video subtitle files
           
             <i class="fas fa-check read-icon"></i>
@@ -329,12 +329,12 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/3-setup-s3/3.4-setup-s3-store-sub-trans-file/" title="Set S3 to save translated subtitle files" class="dd-item 
+    <li data-nav-id="/3-setup-s3/3.4-setup-s3-store-sub-trans-file/" title="Set S3 to save translated subtitle files" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/3-setup-s3/3.4-setup-s3-store-sub-trans-file/">
+      <a href="/3-setup-s3/3.4-setup-s3-store-sub-trans-file/">
            <b> 3.4 </b> Set S3 to save translated subtitle files
           
             <i class="fas fa-check read-icon"></i>
@@ -364,13 +364,13 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/4-setup-lambda-upload-video/" title="Set Up lambda" class="dd-item 
+    <li data-nav-id="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/" title="Upload-video-and-send-notification-to-other-service-when-video-upload-to-S3-is-complete" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/4-setup-lambda-upload-video/">
-           <b> 4. </b> Set Up lambda
+      <a href="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/">
+           <b> 4. </b> Upload-video-and-send-notification-to-other-service-when-video-upload-to-S3-is-complete
           
             <i class="fas fa-check read-icon"></i>
           
@@ -395,13 +395,81 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/4-setup-lambda-upload-video/4.1-create-lambda/" title="Set Lambda Upload Video" class="dd-item 
+    <li data-nav-id="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/4.1-set-up-a-lambda-function-to-create-presigned-urls/" title="Set Up lambda" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/4-setup-lambda-upload-video/4.1-create-lambda/">
-           <b> 4.1 </b> Set Lambda Upload Video
+      <a href="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/4.1-set-up-a-lambda-function-to-create-presigned-urls/">
+           <b> 4.1. </b> Set Up lambda
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/4.1-set-up-a-lambda-function-to-create-presigned-urls/4.1.1-create-lambda-function/" title="Set Lambda Upload Video" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/4.1-set-up-a-lambda-function-to-create-presigned-urls/4.1.1-create-lambda-function/">
+           <b> 4.1.1 </b> Set Lambda Upload Video
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/4.2-setup-sns/" title="Setup SNS" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/4-upload-video-and-send-notification-to-other-server-when-video-upload-to-s3-is-complete/4.2-setup-sns/">
+           <b> 4.2 </b> Setup SNS
           
             <i class="fas fa-check read-icon"></i>
           
@@ -430,13 +498,13 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/5-transcribe/" title="Transcribe" class="dd-item 
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/" title="Generate subtitles translate subtitles and send notification to user interface when done" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/5-transcribe/">
-           <b> 5. </b> Transcribe
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/">
+           <b> 5. </b> Generate subtitles translate subtitles and send notification to user interface when done
           
             <i class="fas fa-check read-icon"></i>
           
@@ -461,13 +529,273 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/5-transcribe/5.1-lambda-transc/" title="Lambda Transcribe" class="dd-item 
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.1-lambda-function-initializes-transcribe-job/" title="Transcribe" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/5-transcribe/5.1-lambda-transc/">
-           <b> 5.1 </b> Lambda Transcribe
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.1-lambda-function-initializes-transcribe-job/">
+           <b> 5.1. </b> Transcribe
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.1-lambda-function-initializes-transcribe-job/5.1.1-setup-lambda-function-transcribe-job/" title="Lambda Transcribe" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.1-lambda-function-initializes-transcribe-job/5.1.1-setup-lambda-function-transcribe-job/">
+           <b> 5.1.1 </b> Lambda Transcribe
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.2-lambda-function-initializes-translate-job/" title="Translate" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.2-lambda-function-initializes-translate-job/">
+           <b> 5.2. </b> Translate
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.2-lambda-function-initializes-translate-job/5.2.1-setup-lambda-function-translate-job/" title="Lambda Translate" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.2-lambda-function-initializes-translate-job/5.2.1-setup-lambda-function-translate-job/">
+           <b> 5.2.1 </b> Lambda Translate
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.3-lambda-function-send-notification-to-frontend/" title="Notify to frontend" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.3-lambda-function-send-notification-to-frontend/">
+           <b> 5.3. </b> Notify to frontend
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+            
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.3-lambda-function-send-notification-to-frontend/5.3.1-setup-lambda-function-notify-frontend/" title="Create Lambda Notify" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.3-lambda-function-send-notification-to-frontend/5.3.1-setup-lambda-function-notify-frontend/">
+           <b> 5.3.1 </b> Create Lambda Notify
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.3-lambda-function-send-notification-to-frontend/5.3.2-setup-api-gateway/" title="Create API Gateway" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.3-lambda-function-send-notification-to-frontend/5.3.2-setup-api-gateway/">
+           <b> 5.3.2 </b> Create API Gateway
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.4-assemble-the-components-of-a-workflow-with-step-function/" title="Setup Step Function" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.4-assemble-the-components-of-a-workflow-with-step-function/">
+           <b> 5.4. </b> Setup Step Function
+          
+            <i class="fas fa-check read-icon"></i>
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.5-lambda-function-triggers-workflow/" title="Create a Lambda Function that triggers a Step Function" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/5-generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/5.5-lambda-function-triggers-workflow/">
+           <b> 5.5. </b> Create a Lambda Function that triggers a Step Function
           
             <i class="fas fa-check read-icon"></i>
           
@@ -496,173 +824,13 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/6-translate/" title="Translate" class="dd-item 
+    <li data-nav-id="/6-test-website/" title="Test website" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/6-translate/">
-           <b> 6. </b> Translate
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/6-translate/6.1-lambda-transl/" title="Lambda Translate" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/6-translate/6.1-lambda-transl/">
-           <b> 6.1 </b> Lambda Translate
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/7-notify/" title="Notify to frontend" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/7-notify/">
-           <b> 7. </b> Notify to frontend
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-            
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/7-notify/7.1-lambda-notify/" title="Create Lambda Notify" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/7-notify/7.1-lambda-notify/">
-           <b> 7.1 </b> Create Lambda Notify
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/7-notify/7.2-api-gateway/" title="Create API Gateway" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/7-notify/7.2-api-gateway/">
-           <b> 7.2 </b> Create API Gateway
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/8-step-function/" title="Setup Step Function" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/8-step-function/">
-           <b> 8. </b> Setup Step Function
+      <a href="/6-test-website/">
+           <b> 6. </b> Test website
           
             <i class="fas fa-check read-icon"></i>
           
@@ -682,91 +850,13 @@
  
   
     
-    <li data-nav-id="/AWS-WS-2024/9-sns/" title="Setup SNS" class="dd-item 
+    <li data-nav-id="/7-clean-up-resources/" title="Clean up resources" class="dd-item 
         
         
         
         ">
-      <a href="/AWS-WS-2024/9-sns/">
-           <b> 9. </b> Setup SNS
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/10-call-step-function/" title="Create Lambda Call Step Function" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/10-call-step-function/">
-           <b> 10. </b> Create Lambda Call Step Function
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/11-test-website/" title="Test website" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/11-test-website/">
-           <b> 11. </b> Test website
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/AWS-WS-2024/12-clean-up-resources/" title="Clean up resources" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/AWS-WS-2024/12-clean-up-resources/">
-           <b> 12. </b> Clean up resources
+      <a href="/7-clean-up-resources/">
+           <b> 7. </b> Clean up resources
           
             <i class="fas fa-check read-icon"></i>
           
@@ -813,7 +903,7 @@
                   
                     
                     
-                      <option id="en" value="http://localhost:1313/AWS-WS-2024/3-setup-s3/3.1-setup-s3-static-web/" selected>English</option>
+                      <option id="en" value="http://localhost:1313/3-setup-s3/3.1-setup-s3-static-web/" selected>English</option>
                     
                   
               
@@ -827,7 +917,7 @@
                   
                     
                     
-                      <option id="vi" value="http://localhost:1313/AWS-WS-2024/vi/3-setup-s3/3.1-setup-s3-static-web/">Tiếng Việt</option>
+                      <option id="vi" value="http://localhost:1313/vi/3-setup-s3/3.1-setup-s3-static-web/">Tiếng Việt</option>
                     
                   
               
@@ -897,7 +987,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://nguyennhattruong03.github.io/AWS-WS-2024/3-Setup-S3/3.1-Setup-S3-Static-web/_index.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://NguyenNhatTruong03.github.io/3-Setup-S3/3.1-Setup-S3-Static-web/_index.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -928,7 +1018,7 @@
             
           
           
-            <a href='/AWS-WS-2024/'>Caption and translate video with AWS Transcribe and AWS Translate</a> > <a href='/AWS-WS-2024/3-setup-s3/'>Setup S3</a> > Setup S3 Static website
+            <a href='/'>Caption and translate video with AWS Transcribe and AWS Translate</a> > <a href='/3-setup-s3/'>Setup S3</a> > Setup S3 Static website
           
         
           
@@ -972,36 +1062,37 @@
 	<h2 id="create-s3-bucket">Create S3 Bucket</h2>
 <p>Go to the S3 dashboard and create a new Bucket named <strong><code>web-translate-ws-2024</code></strong></p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n1.png"></p>
-<p>Select <strong>ACLs enable</strong> and check **Object write to make objects in the bucket public.</p>
+<p>Select <strong>ACLs enable</strong> and check <strong>Object write</strong> to make objects in the bucket public.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n2.png"></p>
-<p>Uncheck *<em>Block all public access</em>, check **</p>
-<p>I acknowledge that the current settings might result in this bucket and the objects within becoming public.** to allow other sources to access S3</p>
+<p>Uncheck <strong>Block all public access</strong>, check <em>I acknowledge that the current settings might result in this bucket and the objects within becoming public.</em> to allow other sources to access S3</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n.png"></p>
-<p><strong>Create bucket</strong></p>
+<p>Select <strong>Create bucket</strong></p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n3.png"></p>
-<p>Select the newly created Bucket and go to <strong>Premissions</strong>.</p>
+<p>Next, configure the policy for S3. Select the newly created Bucket and go to <strong>Premissions</strong>.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n4.png"></p>
 <p>Go to <strong>Bucket policy</strong> to configure the Bucket policy.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n5.png"></p>
 <p>Configure the policy for the bucket using the <strong>Policy generator</strong> feature.</p>
 
-<div class="notices note" ><p>Before selecting <strong>Policy generator</strong>, you need to copy <strong>Bucket ARN</strong></p>
+<div class="notices note" ><p>AWS Policy Generator is a tool that lets you create policies that control access to Amazon Web Services (AWS) products and resources.</p>
+<p>Before selecting <strong>Policy generator</strong>, you need to copy <strong>Bucket ARN</strong></p>
 </div>
 
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n6.png"></p>
-<p>Configure to create a policy for the bucket.</p>
+<p>To create a policy for the bucket, in Step 1, select <strong>S3 Bucket Policy</strong>, in addition, you can create policies for SQS, VPC, IAM and SNS depending on the type of server that you need to perform.</p>
+<p>In Step 2 - Principal, we set the value to * to allow all sources to access the bucket.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n7.png"></p>
 <p>Check that you have selected all the actions that can be performed with this bucket, the correct bucket arn.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n8.png"></p>
 <p>After selecting <strong>Generate Policy</strong>, you will get the json policy code and copy this code.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n9.png"></p>
-<p>Paste the code.</p>
+<p>Paste the newly generated code into Policy.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n10.png"></p>
 
 <div class="notices note" ><p>At the end of the <strong>Resource</strong> line, add /* to allow access to objects in the bucket.</p>
 </div>
 
-<p><strong>Save changes</strong></p>
+<p>Select <strong>Save changes</strong></p>
 <p>Upload the website code file to the bucket, select upload and select the file to upload and finally click <strong>Upload</strong>.</p>
 <p>Download 2 code files:</p>
 <ul>
@@ -1021,7 +1112,7 @@
 <div class="notices note" ><p>In the <strong>Index document</strong> section, enter the file name you want to display first, or maybe as the homepage. Leave the same name as the file uploaded to the Bucket. <strong>Error document</strong> if you code a file to display website errors, you can upload it and leave the name of that file, here because there is no file to display errors in the interface, you can leave the file name as <strong>Index document</strong>.</p>
 </div>
 
-<p><strong>Save changes</strong></p>
+<p>Select <strong>Save changes</strong></p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n14.png"></p>
 <p>That&rsquo;s it and there will be a link to the website.</p>
 <p><img alt="Sep-Up-S3" src="/images/3.setupS3/3.1.ima/n16.png"></p>
@@ -1243,6 +1334,89 @@
 
                     
                     
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
                     
 
                     
@@ -1317,40 +1491,6 @@
             
         
                     
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
             
             
@@ -1401,19 +1541,6 @@
                     
             
         
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
                     
             
         
@@ -1459,10 +1586,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="/AWS-WS-2024/3-setup-s3/" title="Setup S3"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="/3-setup-s3/" title="Setup S3"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="/AWS-WS-2024/3-setup-s3/3.2-setup-s3-store-video-file/" title="Setup S3" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="/3-setup-s3/3.2-setup-s3-store-video-file/" title="Set up S3 to save video files" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -1472,19 +1599,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/AWS-WS-2024/js/clipboard.min.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/perfect-scrollbar.min.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/perfect-scrollbar.jquery.min.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/jquery.sticky.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/featherlight.min.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/highlight.pack.js?1727056162"></script>
+    <script src="/js/clipboard.min.js?1728731519"></script>
+    <script src="/js/perfect-scrollbar.min.js?1728731519"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1728731519"></script>
+    <script src="/js/jquery.sticky.js?1728731519"></script>
+    <script src="/js/featherlight.min.js?1728731519"></script>
+    <script src="/js/highlight.pack.js?1728731519"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/AWS-WS-2024/js/modernizr.custom-3.6.0.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/learn.js?1727056162"></script>
-    <script src="/AWS-WS-2024/js/hugo-learn.js?1727056162"></script>
+    <script src="/js/modernizr.custom-3.6.0.js?1728731519"></script>
+    <script src="/js/learn.js?1728731519"></script>
+    <script src="/js/hugo-learn.js?1728731519"></script>
 
-    <link href="/AWS-WS-2024/mermaid/mermaid.css?1727056162" rel="stylesheet" />
-    <script src="/AWS-WS-2024/mermaid/mermaid.js?1727056162"></script>
+    <link href="/mermaid/mermaid.css?1728731519" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1728731519"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

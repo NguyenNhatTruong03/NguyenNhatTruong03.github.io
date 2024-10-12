@@ -8,14 +8,14 @@ pre : " <b> 3.3 </b> "
 
 ## Create bucket 
 
-Create bucket 
+Create a bucket to store caption files generated from AWS Transcribe
 
 ![Sep-Up-S3](/images/3.setupS3/3.3.ima/n.png) 
 
-Policy bucket 
+Configure Policy bucket
 
 ![Sep-Up-S3](/images/3.setupS3/3.3.ima/n1.png) 
 
-CORS 
+CORS Configuration
 
 ![Sep-Up-S3](/images/3.setupS3/3.3.ima/n2.png)

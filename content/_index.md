@@ -18,16 +18,13 @@ chapter : false
  - Optimize the video upload process.
  - Support subtitles and multilingual subtitle translation.
 
-### Content
-1. [Introduction](1-introduce/)
-2. [Preparation steps](2-Preparation/)
-3. [Setup S3](3-Setup-S3/)
-4. [Upload video](4-Setup-Lambda-Upload-Video//)
-5. [Transcribe](5-Transcribe/)
-6. [Translate](6-Translate/)
-7. [Notify](7-Notify/)
-8. [Step Function](8-Step-Function/)
-9. [SNS](9-SNS/)
-10. [Call Step Function](10-Call-Step-Function/)
-11. [Test website](11-Test-website/)
-12. [Clean up resources](12-Clean-Up-Resources/)
+
+### Contents
+
+1. [Introduction.](1-introduce/)
+2. [Preparation steps.](2-Preparation/)
+3. [Setup S3.](3-Setup-S3/)
+4. [Upload video to S3 and send notification when complete.](4-Upload-video-and-send-notification-to-other-server-when-video-upload-to-S3-is-complete/)
+5. [Generate subtitles, translate and send notifications.](5-Generate-subtitles-translate-subtitles-and-send-notification-to-frontend-when-done/)
+6. [Test-website.](6-Test-website/)
+7. [Clean Up Resources](7-Clean-Up-Resources/)

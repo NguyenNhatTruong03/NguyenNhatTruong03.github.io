@@ -8,14 +8,14 @@ pre : " <b> 3.3 </b> "
 
 ## Tạo bucket
 
-Tạo bucket
+Tạo bucket lưu các file phụ đề được tạo ra từ AWS Transcribe
 
 ![Sep-Up-S3](/images/3.setupS3/3.3.ima/n.png)
 
-Policy bucket
+Cấu hình Policy bucket
 
 ![Sep-Up-S3](/images/3.setupS3/3.3.ima/n1.png)
 
-CORS
+Cấu hình CORS
 
 ![Sep-Up-S3](/images/3.setupS3/3.3.ima/n2.png)
